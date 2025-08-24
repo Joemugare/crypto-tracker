@@ -35,7 +35,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     'cryptomonitor.live',
-    'crypto-ijco.onrender.com',
+    'crypto-tracker-7zb4.onrender.com',
     '*.onrender.com',
 ]
 
@@ -311,4 +311,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Redirects
 LOGIN_URL = '/login/'
 LOGOUT_REDIRECT_URL = '/'
+
 LOGIN_REDIRECT_URL = '/dashboard/'
